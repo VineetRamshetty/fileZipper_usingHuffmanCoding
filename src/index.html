@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Compressor -byVineet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>File Zipper</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="inputOutputBlock">
+                <div class="inputBlock">
+                    <h2 id="inputHeading">Input</h2>
+                    <img src="../assets/uploadimg.png">
+                    <input type="file" name="inputFile" id="inputFile">
+                </div>
+                <img src="../assets/arrow.png">
+                <div class="outputBlock">
+                    <h2 id="outputHeading">Output</h2>
+                    <img src="../assets/downloadimg.png">
+                    <button id="downloadBtn">Download ⬇</button>
+                </div>
+            </div>
+            <div class="messageBlock">
+                <p>Please upload a .txt/.huff file at the input</p>
+            </div>
+            <div class="buttonBlock">
+                <button id="encodeButton">Encode</button>
+                <button id="decodeButton">Decode</button>
+            </div>
+        </div>
+    </main>
+    <script src="huffman.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
