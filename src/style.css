@@ -49,17 +49,46 @@ body{
     background-color: whitesmoke;
     flex-direction: column;
     min-width: 220px;
+    min-height: 245px;
 }
 .inputBlock img, .outputBlock img{
-    height: 200px;
-    width: 200px;
+    height: 130px;
+    width: 130px;
     object-fit: cover;
     margin-bottom: 1rem;
 }
 #downloadBtn{
     padding: 0.3rem 1rem;
     font-size: 1rem;
+    border:none;
+    border-radius: 1rem;
+    background-color: #00C897;
+    color: white;
 }
+#browseBtn{
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    border:none;
+    border-radius: 1rem;
+    background-color: #00C897;
+    color: white;
+    cursor: pointer;
+}
+#browseBtn:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+#inputFileNameDisplay, #outputFileNameDisplay{
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+}
+#beforeSize, #afterSize {
+    margin-top: 0.3rem;
+    font-size: 0.75rem;
+    color: grey;
+    font-style: italic;
+}
+
 .messageBlock{
     padding: 1rem;
     margin: 1rem auto;
